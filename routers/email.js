@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const { runValidation, validationRegister } = require('../validation/register-validation')
+const { runValidation, validationRegister } = require('../validation/global-validation')
 
 const {
     submitEmail,
